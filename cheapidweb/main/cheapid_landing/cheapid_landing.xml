@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sq>
+    <controls>
+        <cheapid_landing>        
+            <div>
+                <div class="main-div">
+                    <sq control="sq_input" name="location" placeholder="Store/Location"></sq>
+                    <sq control="sq_dropdownlist" name="type">
+                        <sq placeholder="body">
+                            <option value="">Location</option>
+                            <option value="">Store</option>
+                        </sq>
+                    </sq>
+                    <sq control="sq_dropdownlist" name="category"></sq>
+                    <sq control="sq_input" name="product" placeholder="Product"></sq>
+                    <sq control="sq_button" name="search" text="Search"></sq>
+                    <sq control="sq_button" name="contribute" text="Contribute"></sq>
+                </div>
+            </div>
+        </cheapid_landing>
+    </controls>
+</sq>
